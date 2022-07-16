@@ -1,6 +1,6 @@
 
 package ec.edu.intsuperior.modelo;
 
-public class Vista {
+public class Persona {
     
 }
