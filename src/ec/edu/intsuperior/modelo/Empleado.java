@@ -103,11 +103,9 @@ public String empleado5;
 
     @Override
     public String toString() {
-        return  "el nombre del empleado 1 es :" +getEmpleado1()+" "+getCi()+" "+getSueldo()
-        + "el nombre del empleado 2 es  :" +getEmpleado2()+" "+getCi()+" "+getSueldo()+"\n"
-        +"el nombre del empleado 3 es : "+getEmpleado3()+" "+getCi()+" "+getSueldo()+"\n"
-        + "el nombre del empleado 4 es :"+getEmpleado4()+" "+getCi()+" "+getSueldo()+"\n"
-       + "el nombre del empleado  5 es "+getEmpleado5()+" "+getCi()+" "+getSueldo();
+        return "el nombre del empleado es :" +getNombreEmpleado()
+        + "el numero de cedula del empleado es :" +getCi()+"\n"
+        +"el suledo del empleado es: "+getSueldo()+"\n";
         
         
       
